@@ -4,7 +4,7 @@ app = FastAPI()
 
 #domain where this api is hosted for example : localhost:5000/docs to see swagger documentation automagically generated.
 
-#last update 2/6/2021 1:00 PM
+#last update 2/8/2021 3:00 AM
 @app.get("/rates")
 def home():
     return {"USD":1,
