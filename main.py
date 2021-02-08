@@ -8,7 +8,7 @@ app = FastAPI()
 @app.get("/rates")
 def home():
     return {"USD":1,
-            "EGP":15.68,
+            "EGP":15.67,
             "EUR":0.83,
             "GBP":0.73,
             "SAR":3.75,
