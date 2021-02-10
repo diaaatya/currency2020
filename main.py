@@ -2,15 +2,14 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-#domain where this api is hosted for example : localhost:5000/docs to see swagger documentation automagically generated.
 
-#last update 2/9/2021 6:00 AM
+#last update 2/10/2021 8:33 AM
 @app.get("/rates")
 def home():
     return {"USD":1,
-            "EGP":15.65,
+            "EGP":15.66,
             "EUR":0.83,
-            "GBP":0.73,
+            "GBP":0.72,
             "SAR":3.75,
             "AED":3.67,
             "KWD":0.30,
