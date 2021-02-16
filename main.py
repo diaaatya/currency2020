@@ -3,12 +3,12 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-#last update 2/15/2021 09:25 AM :https://www.xe.com/
+#last update 2/16/2021 09:00 AM :https://www.xe.com/
 @app.get("/rates")
 def home():
     return {"USD":1,
-            "EGP":15.57,
-            "EUR":0.83,
+            "EGP":15.60,
+            "EUR":0.82,
             "GBP":0.72,
             "SAR":3.75,
             "AED":3.67,
