@@ -3,7 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-#last update 2/20/2021 11:30 AM :https://www.xe.com/
+#last update 2/21/2021 09:00 AM :https://www.xe.com/
 @app.get("/rates")
 def home():
     return {"USD":1,
